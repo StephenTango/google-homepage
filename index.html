@@ -1,262 +1,222 @@
 <html lang="en">
   <head>
+    <link rel="stylesheet" href="./style.css" />
+    <title>build this webpage - Google Search</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>build this webpage - Google Search</title>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
   </head>
+
   <body>
-    <div class="nav-bar">
-      <!--logo, search bar-->
-      <div class="logo">
-        <a href=""
-          ><img
-            src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
-            alt="google logo"
-        /></a>
-      </div>
-      <div class="search-bar">
-        <!--when clicked-->
-        <i></i>
-        <input type="search" value="build this webpage" />
-        <!--when clicked-->
-        <div>
-          <div>
-            <i></i>
-            <a href=""
-              ><p><strong>free website builder</strong></p></a
-            >
+    <nav class="nav-bar">
+      <div class="logo-search">
+        <!--logo, search bar-->
+        <div class="logo">
+          <a href=""
+            ><img
+              src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
+              alt="google logo"
+          /></a>
+        </div>
+        <div class="search-bar">
+          <input
+            class="search-bar-text"
+            type="search"
+            value="build this webpage"
+          />
+          <div class="search-bar-options">
+            <div class="clear-button">
+              <a href=""
+                ><i class="fas fa-times"></i></a>
+            </div>
+            <div class="clear-voice-line"></div>
+            <div class="search-by-voice">
+              <a href=""
+                ><i class="fas fa-microphone"></i></a>
+            </div>
+            <div class="search">
+              <a href="">
+                <i class="fas fa-search"></i>
+              </a>
+            </div>
           </div>
-          <div>
-            <i></i>
-            <a href=""
-              ><p>
-                <strong>how to</strong> build a
-                <strong>website from scratch</strong>
-              </p></a
-            >
-          </div>
-          <div>
-            <i></i>
-            <a href=""
-              ><p><strong>best website builder</strong></p></a
-            >
-          </div>
-          <div>
-            <i></i>
-            <a href=""
-              ><p>
-                <strong>best way to</strong> build <strong>a website</strong>
-              </p></a
-            >
-          </div>
-          <div>
-            <i></i>
-            <a href=""
-              ><p><strong>creating a website for your business</strong></p></a
-            >
-          </div>
-          <div>
-            <i></i>
-            <a href=""
-              ><p><strong>create professional website</strong></p></a
-            >
-          </div>
-          <div>
-            <i></i>
-            <a href=""
-              ><p><strong>how to design a website</strong></p></a
-            >
-          </div>
-          <div>
-            <i></i>
-            <a href=""
-              ><p>
-                <strong>learn how to</strong>build <strong>a website</strong>
-              </p></a
-            >
-          </div>
-          <div>
-            <a href=""
-              ><p><em>Report inappropriate predictions</em></p></a
-            >
-          </div>
+        <div class="apps-profile">
+          <a href="">
+            <div class="google-apps">
+              <div class="dot" id="dot1"></div>
+              <div class="dot" id="dot2"></div>
+              <div class="dot" id="dot3"></div>
+              <div class="dot" id="dot4"></div>
+              <div class="dot" id="dot5"></div>
+              <div class="dot" id="dot6"></div>
+              <div class="dot" id="dot7"></div>
+              <div class="dot" id="dot8"></div>
+              <div class="dot" id="dot9"></div>
+            </div>
+          </a>
+          <a href="">
+            <div class="profile-pic">
+              <p class="profile-pic-s">S</p>
+            </div>
+          </a>
         </div>
       </div>
-      <div class="clear-button">
-        <!--clear button lines-->
-        <a href=""
-          ><div></div>
-          <div></div
-        ></a>
-        <div class="clear-button-hover">
-          <div></div>
-          <p>Clear</p>
-        </div>
-      </div>
-      <div class="search-by-voice">
-        <a href=""><img src="" alt="voice-search" /></a>
-        <div class="voice-search-hover">
-          <div></div>
-          <p>Search by voice</p>
-        </div>
-      </div>
-      <div class="search">
-        <a href="">
-          <img src="" alt="search" />
-        </a>
-      </div>
-      <a href="">
-        <div class="google-apps">
-          <div class="dot1"></div>
-          <div class="dot2"></div>
-          <div class="dot3"></div>
-          <div class="dot4"></div>
-          <div class="dot5"></div>
-          <div class="dot6"></div>
-          <div class="dot7"></div>
-          <div class="dot8"></div>
-          <div class="dot9"></div>
-        </div>
-      </a>
-      <a href="">
-        <div class="profile-pic">
-          <p>S</p>
-        </div>
-      </a>
       <!--filter optns-->
-      <div class="all">
-        <a href="">
-          <img src="" alt="" />
-          <p>All</p>
-        </a>
+      <div class="filter">
+        <div class="filter-options">
+          <div class="filt all">
+            <a class="filt-link" href="">
+              <i class="fas fa-search" id="mag"></i>
+              <p>All</p>
+            </a>
+            <!--line below selected filter option-->
+            <div class="filter-line"></div>
+          </div>
+          <div class="filt news">
+            <a class="filt-link" href="">
+              <i class="far fa-newspaper"></i>
+              <p>News</p>
+            </a>
+          </div>
+          <div class="filt maps">
+            <a class="filt-link" href="">
+              <i class="fas fa-map-marker-alt"></i>
+              <p>Maps</p>
+            </a>
+          </div>
+          <div class="filt videos">
+            <a class="filt-link" href="">
+                <i class="fas fa-play"></i>
+              <p>Videos</p>
+            </a>
+          </div>
+          <div class="filt shopping">
+            <a class="filt-link" href="">
+              <i class="fas fa-tag"></i>
+              <p>Shopping</p>
+            </a>
+          </div>
+          <div class="filt more">
+            <a class="filt-link" href="">
+              <i class="fas fa-ellipsis-v"></i>
+              <p>More</p>
+            </a>
+          </div>
+        </div>
+        <div class="filt settings">
+          <a href="">
+            <img src="" alt="" />
+            <p>Settings</p>
+          </a>
+        </div>
+        <div class="filt tools">
+          <a href="">
+            <img src="" alt="" />
+            <p>Tools</p>
+          </a>
+        </div>
       </div>
-      <div class="news">
-        <a href="">
-          <img src="" alt="" />
-          <p>News</p>
-        </a>
-      </div>
-      <div class="maps">
-        <a href="">
-          <img src="" alt="" />
-          <p>Maps</p>
-        </a>
-      </div>
-      <div class="videos">
-        <a href="">
-          <img src="" alt="" />
-          <p>Videos</p>
-        </a>
-      </div>
-      <div class="shopping">
-        <a href="">
-          <img src="" alt="" />
-          <p>Shopping</p>
-        </a>
-      </div>
-      <div class="more">
-        <a href="">
-          <img src="" alt="" />
-          <p>More</p>
-        </a>
-      </div>
-      <div class="settings">
-        <a href="">
-          <img src="" alt="" />
-          <p>Settings</p>
-        </a>
-      </div>
-      <div class="tools">
-        <a href="">
-          <img src="" alt="" />
-          <p>Tools</p>
-        </a>
-      </div>
-      <!--line below selected filter option-->
-      <div class="filter-line"></div>
-    </div>
+    </nav>
+    <div class="nav-line"></div>
+
     <div class="main">
       <div class="results-number">
         <p>About 111,000,000 results (0.51 seconds)</p>
       </div>
       <div class="top-4-page-results">
-        <div class="result1">
-          <a href="">
-            <p>victor-lf.github.io <span>› google-search-results</span></p>
+        <div class="result">
+          <div class="mini-web-and-down">
+          <a class="mini-web-and-span" href="">
+            <p class="mini-web">
+              victor-lf.github.io
+              <span class="mini-web-span">› google-search-results</span>
+            </p>
           </a>
           <a href="">
-            <i></i>
+            <i class="fas fa-sort-down"></i>          </a></div>  
+          <a class="hyp" href="">
+            <p class="hyp-und">build this webpage - GitHub Pages</p>
           </a>
-          <a href="">
-            <h1>build this webpage - GitHub Pages</h1>
-          </a>
-          <p>
+          <p class="desc">
             <strong>build this webpage</strong>.
             https://benjdelt.github.io/google-results/. With zero coding
             experience, artist building 180 webpages in 180 days ...
           </p>
         </div>
-        <div class="result2">
-          <a href="">
-            <p>christine-27.github.io <span>› google-homepage</span></p>
+        <div class="result">
+            <div class="mini-web-and-down">
+          <a class="mini-web-and-span" href="">
+            <p class="mini-web">
+              christine-27.github.io
+              <span class="mini-web-span">› google-homepage</span>
+            </p>
           </a>
           <a href="">
-            <i></i>
+            <i class="fas fa-sort-down"></i>          </a></div>
+          <a class="hyp" href="">
+            <p class="hyp-und">build this webpage - GitHub Pages</p>
           </a>
-          <a href="">
-            <h1>build this webpage - GitHub Pages</h1>
-          </a>
-          <p>
+          <p class="desc">
             With zero coding experience, artist building 180
             <strong>webpages</strong> . ... days ago, having never done any
             programming in her life, Jennifer Dewalt built her first
             <strong>webpage</strong>.
           </p>
         </div>
-        <div class="result3">
-          <a href="">
-            <p>www.websitebuilderexpert.com <span>› building-websites</span></p>
+        <div class="result">
+            <div class="mini-web-and-down">
+          <a class="mini-web-and-span" href="">
+            <p class="mini-web">
+              www.websitebuilderexpert.com
+              <span class="mini-web-span">› building-websites</span>
+            </p>
           </a>
-          <a href="">
-            <h1>
-              How to Build a Website 2020 | A Step-by-Step Beginner's Guide
-            </h1>
+          <a href=""><i class="fas fa-sort-down"></i></a>
+          </div>
+          <a class="hyp" href="">
+            <p class="hyp-und">How to Build a Website 2020 | A Step-by-Step Beginner's Guide</p>
           </a>
-          <p>
-            How to <strong>Build</strong> a <strong>Website</strong> from
-            Scratch. We'll look at how to make a <strong>website</strong> with
-            both a <strong>website</strong> builder and WordPress, with no steps
-            left out. So buckle up ...
+          <p class="desc">
+            <span class="desc-date">17 Dec 2020 &#8212;</span> How to
+            <strong>Build</strong> a <strong>Website</strong> from Scratch.
+            We'll look at how to make a <strong>website</strong> with both a
+            <strong>website</strong> builder and WordPress, with no steps left
+            out. So buckle up ...
           </p>
         </div>
-        <div class="result4">
-          <a href="">
-            <p>websitesetup.org</p>
+        <div class="result">
+            <div class="mini-web-and-down">
+          <a class="mini-web-and-span" href="">
+            <p class="mini-web">websitesetup.org</p>
           </a>
           <a href="">
-            <i></i>
+            <i class="fas fa-sort-down"></i>
           </a>
-          <a href="">
-            <h1>
-              How to Create a Website: Step-by-Step Guide for Beginners ...
-            </h1>
+          </div>
+          <a class="hyp" href="">
+            <p class="hyp-und">How to Create a Website: Step-by-Step Guide for Beginners ...</p>
           </a>
-          <p>
+          <p class="desc desc1">
             Learn how to make a <strong>website</strong> and set it up. This
             site contains different tutorials on how to <strong>build</strong> a
             <strong>website</strong> using WordPress, Joomla, Drupal & HTML.
           </p>
         </div>
       </div>
-      <div class="people-also-ask">
-        <h1>People also ask</h1>
+      
+        <div class="people-also-ask">
+        <div class="paa-title">
+            <p>People also ask</p>    
+        </div>
         <div class="people-also-ask-1">
-          <h2>How can I create my own webpage?</h2>
-          <i></i>
-          <!--click-->
-          <i></i>
+          <div class="paa-min">
+              <p>How can I create my own webpage?</p>
+              <i class="fas fa-chevron-up"></i>
+          </div>
           <ol>
-            <strong>Table of contents (steps to launch a website):</strong>
+            <p>
+                <strong>Table of contents (steps to launch a website):</strong>
+            </p>
             <li>Choose a domain name</li>
             <li>
               Register a domain and sign up with <strong>web</strong> hosting.
@@ -272,42 +232,42 @@
             <li>Set up a navigation menu.</li>
             <li>Add an online store (optional)</li>
           </ol>
-          <a href="">websitesetup.org</a>
-          <a href="">
-            <i></i>
-            <h1>
-              How to Create a Website: Step-by-Step Guide for Beginners ...
-            </h1>
+          <a class="web-link" href="">websitesetup.org</a>
+            <p class="paa-pa">
+            <p class="paa-pa hyp-und"><a href="" class="paa-a">How to Create a Website: Step-by-Step Guide for Beginners ...</a></p>
+            </p>
           </a>
-          <p>Search for: <a href="">How can I create my own webpage?</a></p>
+          <p class="">Search for: <a class="paa-aa" href="">How can I create my own webpage?</a></p>
         </div>
-        <div class="people-also-ask-2">
-          <h2>What does it cost to build a Web page?</h2>
-          <i></i>
-          <i></i>
-          <p>
+        <div class="people-also-ask-1">
+          <div class="paa-min">
+              <p>What does it cost to build a Web page?</p>
+              <i class="fas fa-chevron-up"></i>
+          </div>
+          <p class="paa-cost">
             How much should a website cost, though? On average, the upfront cost
             of a site, which includes launching and designing it, is $12,000 to
             $150,000, while routine website maintenance ranges from $35 to $5000
             per month — or $400 to $60,000 per year.
           </p>
-          <p>1 Jul 2020</p>
-          <a href="">www.webfx.com › How-much-should-web-site-cost</a>
+          <p class="paa-date">1 Jul 2020</p>
+          <a class="web-link" href="">www.webfx.com <span class="ext-web-link">› How-much-should-web-site-cost</span></a>
           <a href="">
-            <h1>
-              How Much Should a Website Cost? (The Official 2020 Guide) | WebFX
-            </h1>
+               <p class="paa-pa hyp-und"><a href="" class="paa-a">How Much Should a Website Cost? (The Official 2020 Guide) | WebFX</a></p>
           </a>
-          <p>
-            Search for: <a href="">What does it cost to build a Web page?</a>
+          <p class="search-for">
+            Search for: <a class="paa-aa" href="">What does it cost to build a Web page?</a>
           </p>
         </div>
-        <div class="people-also-ask-3">
-          <h2>How do I build my website for free?</h2>
-          <i></i>
-          <i></i>
+        <div class="people-also-ask-1">
+          <div class="paa-min">
+              <p>How do I build my website for free?</p>
+              <i class="fas fa-chevron-up"></i>
+          </div>
           <ol>
-            How to Create a Free Website
+            <p>
+                How to Create a Free Website
+            </p>
             <li>
               Sign up for a <strong>free website</strong> builder. Choose what
               kind of <strong>website</strong> you want to create.
@@ -322,18 +282,21 @@
             <li>Drive traffic to your site.</li>
           </ol>
           <a href="">
-            <p>www.wix.com</p>
-            <h1>Wix.com: Free Website Builder | Create a Free Website</h1>
+            <p class="web-link">www.wix.com</p>
+            <p class="paa-pa hyp-und"><a href="" class="paa-a">Wix.com: Free Website Builder | Create a Free Website</a></p>
           </a>
-          <p>Search for: <a href="">How do I build my website for free?</a></p>
+          <p class="search-for">Search for: <a class="paa-aa" href="">How do I build my website for free?</a></p>
         </div>
-        <div class="people-also-ask-4">
-          <h2>How do you build an awesome website?</h2>
-          <i></i>
-          <i></i>
+        <div class="people-also-ask-1 people-also-ask-bottom">
+          <div class="paa-min">
+              <p>How do you build an awesome website?</p>
+              <i class="fas fa-chevron-up"></i>
+          </div>
           <ol>
-            Here are 15 tried and proven tips to help make your website
-            successful:
+            <p>
+                Here are 15 tried and proven tips to help make your website
+                successful:
+            </p>
             <li>Start with a clear navigation. ...</li>
             <li>Use conversational English. ...</li>
             <li>Apply SEO best practices. ...</li>
@@ -342,86 +305,121 @@
             <li>Make your home page a to-the-point summary. ...</li>
             <li>Create unique landing pages for specific topics.</li>
           </ol>
-          <a href="">
+          <a class="more-items" href="">
             <p>More items...</p>
           </a>
           <a href="">
-            <p>www.susangreenecopywriter.com › articles › 15-tips-kille...</p>
-            <h1>
-              15 Tips to Create Killer Website Content, Crisp Copy & Intuitive
-              ...
-            </h1>
+            <p class="web-link">www.susangreenecopywriter.com <span class="ext-web-link">› articles › 15-tips-kille...</span></p>
+            <p class="paa-pa hyp-und">
+              <a href="" class="paa-a">
+                  15 Tips to Create Killer Website Content, Crisp Copy & Intuitive
+                  ...
+              </a>
+            </p>
           </a>
-          <p>Search for: <a href="">How do you build an awesome website?</a></p>
+          <p class="search-for">Search for: <a class="paa-aa" href="">How do you build an awesome website?</a></p>
         </div>
       </div>
       <div class="feedback">
-        <p>
-          <em><a href="">Feedback</a></em>
-        </p>
+        <p class="pasf-feedback"><a href=""><em>Feedback</em></a></p>
       </div>
-      <div class="middle-page-result">
-        <a href="">
-          <p>www.pcmag.com <span>› ... › google-search-results</span></p>
+
+      <div class="result">
+        <div class="mini-web-and-down">
+        <a class="mini-web-and-span" href="">
+          <p class="mini-web">
+            www.pcmag.com
+            <span class="mini-web-span">› ... › google-search-results</span>
+          </p>
         </a>
         <a href="">
-          <i></i>
+          <i class="fas fa-sort-down"></i>
         </a>
-        <a href="">
-          <h1>How to Create a Website | PCMag</h1>
+        </div>
+        <a class="hyp" href="">
+          <p class="hyp-und">How to Create a Website | PCMag</p>
         </a>
-        <p>
+        <p class="desc">
           You can use an online service to create <strong>web</strong> pages, or
           <strong>build</strong> it offline using a desktop software tool. Or,
           if you're a coding dynamo, use a plain text editor to create a ..
         </p>
       </div>
+
       <div class="videos-results">
-        <img src="" alt="" />
-        <h1>Videos</h1>
-        <div class="vid1">
-          <a href="">
-            <img src="" alt="" />
-            <i></i>
-            <p>12:22</p>
-            <p>PREVIEW</p>
-          </a>
-          <h2>
-            <a href="">How to Make a Website in 10 mins - Simple & Easy</a>
-          </h2>
-          <p>YouTube</p>
-          <p>· Website Learners</p>
-          <p>3 Jan 2018</p>
-        </div>
-        <div class="vid2">
-          <a href="">
-            <img src="" alt="" />
-            <i></i>
-            <p>4:54</p>
-            <p>PREVIEW</p>
-          </a>
-          <h2>
-            <a href="">
-              How To Build a Website Without Code | Everyone Can Build a ...
+        <div class="title-video">
+          <i class="fas fa-play" style="font-size: 7px;"></i>
+          <p class="video-results-title">Videos</p>
+        </div>  
+        <div class="vids">
+          <div class="vid vid-1">
+            <a class="vid-tech" href="">
+              <img class="vid-preview" src="data:image/jpeg;base64,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" alt="" />
+              <div class="play-button">
+                  <i class="fas fa-play"></i>
+              </div>
+              <div class="time-preview">
+                  <p class="time-stamp">12:22</p>
+                  <p class="preview">PREVIEW</p>
+              </div>
             </a>
-          </h2>
-          <p>YouTube</p>
-          <p>· Roberto Blake</p>
-          <p>7 Nov 2016</p>
-        </div>
-        <div class="vid3">
-          <a href="">
-            <img src="" alt="" />
-            <i></i>
-            <p>14:19</p>
-            <p>PREVIEW</p>
+            <div class="vid-content">
+                <p class="vid-title">
+                  <a href="">How to Make a Website in 10 mins - Simple & Easy</a>
+                </p>
+                <div class="yt-channel">
+                    <p class="yt">YouTube</p>
+                    <p class="channel">· Website Learners</p>
+                </div>
+                <p class="vid-date">3 Jan 2018</p>
+            </div>
+          </div>
+          <div class="vid vid-1">
+            <a class="vid-tech" href="">
+              <img class="vid-preview" src="data:image/jpeg;base64,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" alt="" />
+              <div class="play-button">
+                  <i class="fas fa-play"></i>
+              </div>
+              <div class="time-preview">
+                  <p class="time-stamp">4:54</p>
+                  <p class="preview">PREVIEW</p>
+              </div>
+            </a>
+            <div class="vid-content">
+                <p class="vid-title">
+                  <a href="">
+                    How To Build a Website Without Code | Everyone Can Build a ...
+                  </a>
+                </p>
+                <div class="yt-channel">
+                    <p class="yt">YouTube</p>
+                    <p class="channel">· Roberto Blake</p>
+                </div>
+                <p class="vid-date">7 Nov 2016</p>
+            </div>
+          </div>
+          <div class="vid vid-3">
+          <a class="vid-tech" href="">
+            <img class="vid-preview" src="data:image/jpeg;base64,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" alt="" />
+            <div class="play-button">
+                <i class="fas fa-play"></i>
+            </div>
+            <div class="time-preview">
+                <p class="time-stamp">14:19</p>
+                <p class="preview">PREVIEW</p>
+            </div>
           </a>
-          <h2>
-            <a href="">How To Build a Website From Scratch 2020 [NO CODING]</a>
-          </h2>
-          <p>YouTube</p>
-          <p>· Create WP Site</p>
-          <p>1 Jan 2019</p>
+          <div class="vid-content">
+              <p class="vid-title">
+                <a href="">How To Build a Website From Scratch 2020 [NO CODING]</a>
+              </p>
+              <div class="yt-channel">
+                  <p class="yt">YouTube</p>
+                  <p class="channel">· Create WP Site</p>
+              </div>
+              <p class="vid-date">1 Jan 2019</p>
+          </div>
+          </div>
         </div>
         <div class="view-all">
           <a href="">
@@ -430,74 +428,82 @@
           </a>
         </div>
       </div>
-      <div class="last-4-page-results">
-        <div class="last-page-result-1">
-          <a href="">
-            <p>www.squarespace.com</p>
+      <div class="last-result">
+        <div class="result">
+            <div class="mini-web-and-down">
+          <a class="mini-web-and-span" href="">
+            <p class="mini-web">www.squarespace.com</p>
           </a>
           <a href="">
-            <i></i>
+            <i class="fas fa-sort-down"></i>
           </a>
-          <a href="">
-            <h1>Squarespace: Build a Website - Website Builder</h1>
+          </div>
+          <a class="hyp" href="">
+            <p class="hyp-und">Squarespace: Build a Website - Website Builder</p>
           </a>
-          <p>
+          <p class="desc">
             Squarespace is the all-in-one solution for anyone looking to create
             a beautiful <strong>website</strong>. Domains, eCommerce, hosting,
             galleries, analytics, and 24/7 support all ...
           </p>
         </div>
-        <div class="last-page-result-2">
-          <a href="">
-            <p>makeawebsitehub.com</p>
+        <div class="result">
+            <div class="mini-web-and-down">
+          <a class="mini-web-and-span" href="">
+            <p class="mini-web">makeawebsitehub.com</p>
           </a>
           <a href="">
-            <i></i>
+            <i class="fas fa-sort-down"></i>
           </a>
-          <a href="">
-            <h1>
+          </div>
+          <a class="hyp" href="">
+            <p class="hyp-und">
               How Can You Make a Website in just 1 Hour - 2020 Ultimate ...
-            </h1>
+            </p>
           </a>
-          <p>
+          <p class="desc">
             Jump to
-            <a href="">Choose your <strong>web building</strong> platform</a> -
+            <a href="">Choose your <strong>web building</strong> platform</a> &#8212;
             My name is Jamie Spencer and I have been building and creating
             websites since the beginning of the internet ( ...
           </p>
         </div>
-        <div class="last-page-result-3">
-          <a href="">
-            <p>
+        <div class="result"">
+            <div class="mini-web-and-down">
+          <a class="mini-web-and-span" href="">
+            <p class="mini-web">
               neilpatel.com
-              <span>› blog › from-0-to-launch-6-steps-to-buil...</span>
+              <span class="mini-web-span">› blog › from-0-to-launch-6-steps-to-buil...</span>
             </p>
           </a>
           <a href="">
-            <i></i>
+            <i class="fas fa-sort-down"></i>
           </a>
-          <a href="">
-            <h1>Build a Website: 6 Steps From 0 to Launch - Neil Patel</h1>
+          </div>
+          <a class="hyp" href="">
+            <p class="hyp-und">Build a Website: 6 Steps From 0 to Launch - Neil Patel</p>
           </a>
-          <p>
+          <p class="desc">
             Ready to <strong>build</strong> a <strong>website</strong>? Here's
             step by step guide to <strong>building</strong> and opimizing your
             first <strong>website</strong> including what hosting and CMS to
             use.
           </p>
         </div>
-        <div class="last-page-result-4">
-          <a href="">
-            <p>www.webhostingsecretrevealed.net <span>› WHSR Blog</span></p>
+        <div class="result"">
+            <div class="mini-web-and-down">
+          <a class="mini-web-and-span" href="">
+            <p class="mini-web">www.webhostingsecretrevealed.net <span class="mini-web-span">› WHSR Blog</span></p>
           </a>
           <a href="">
-            <i></i>
+            <i class="fas fa-sort-down"></i>
           </a>
-          <a href="">
-            <h1>How to Create a Website: Step-by-Step Tutorial</h1>
+          </div>
+          <a class="hyp" href="">
+            <p class="hyp-und">How to Create a Website: Step-by-Step Tutorial</p>
           </a>
-          <p>
-            Jump to <a href=""><strong>Creating</strong> from scratch</a> —
+          <p class="desc">
+            Jump to <a href=""><strong>Creating</strong> from scratch</a> &#8212;
             <strong>Creating</strong> from scratch; Using a content management
             system (CMS); Using a <strong>website</strong> builder. You get more
             flexibility in ...
@@ -505,167 +511,227 @@
         </div>
       </div>
       <div class="people-also-search-for">
-        <h1>People also search for</h1>
-        <div>
-          <img src="" alt="" />
-          <h2>Best website builder</h2>
-          <i></i>
-          <i></i>
-          <img src="" alt="" />
-          <h3>WordPress</h3>
-          <img src="" alt="" />
-          <h3>Squaresp...</h3>
-          <img src="" alt="" />
-          <h3>GoDaddy</h3>
-          <img src="" alt="" />
-          <h3>Weebly</h3>
-          <img src="" alt="" />
-          <h3>Shopify</h3>
-          <img src="" alt="" />
-          <h3>Domain name</h3>
-          <div>
-            <a href="">
-              <i></i>
-              See more
+        <p class="people-also-search-for-title">People also search for</p>
+        <div class="pasf-content">
+          <div class="pasf-content-1">
+            <a class="min-menu" href="">
+              <p class="best-website-builder">Best website builder</p>
+              <i class="fas fa-chevron-up"></i>
             </a>
-          </div>
-          <div class="line-under-see-more"></div>
-          <div>
-            <img src="" alt="" />
-            <h2>Web design program</h2>
-            <i></i>
-            <i></i>
-            <img src="" alt="" />
-            <h3>Mobirise</h3>
-            <img src="" alt="" />
-            <h3>Google Web Designer</h3>
-            <img src="" alt="" />
-            <h3>Adobe Dreamwe...</h3>
-            <img src="" alt="" />
-            <h3>CoffeeCup HTML Editor</h3>
-            <img src="" alt="" />
-            <h3>RapidWe...</h3>
-            <img src="" alt="" />
-            <h3>openEle...</h3>
-            <div>
+            <div class="pic-label">
+            <div class="pasf-pic-label">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTs1YtCJK4SpE-qLvsLxdNe8wmiKNTQOiTuvGmAwgg&s=0" alt="" />
+              <a href=""><p>WordPress</p></a>
+            </div>
+            <div class="pasf-pic-label">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRct9NcdmDY_g9gAlZPGDeOxC1ALK7_Xgm_m-Ox6c3PP1aOtGy2jQU4wYU&s=0" alt="" />
+              <a href=""><p>Squaresp...</p></a>
+            </div>
+            <div class="pasf-pic-label">
+              <img class="godaddy" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUC7UWUTd2wQC8d-Juv1pc7HHjvfp98otTCLYqNw&s=0" alt="" />
+              <a href=""><p>GoDaddy</p></a>
+            </div>
+            <div class="pasf-pic-label">
+              <img class="weebly" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4umkiNz-xhSaJNki3GPmh-Zbfdr0FdqT_-Zw4aQ&s=0" alt="" />
+              <a href=""><p>Weebly</p></a>
+            </div>
+            <div class="pasf-pic-label">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHOOYbEuvCI0kLoI-r_93Zm4pO8UvUh8j1zNOkRpc&s=0" alt="" />
+              <a href=""><p>Shopify</p></a>
+            </div>
+            <div class="pasf-pic-label">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaZtiUzJSXKpAGRx2_5AID2Z56GfrTldhTHq5A-Yp7wZWYrOfo_4P2vyM&s=0" alt="" />
+              <a href=""><p>Domain name</p></a>
+            </div>
+        </div>
+            <div class="see-more">
               <a href="">
-                <i></i>
-                See more
+                <i class="fas fa-arrow-right"></i>
+                <p>See more</p>
+              </a>
+            </div>
+          </div>
+          <div class="between-pasf"></div>
+          <div class="pasf-content-2">
+            <a class="min-menu" href="">
+              <p class="best-website-builder">Web design program</p>
+              <i class="fas fa-chevron-up"></i>
+            </a>
+            <div class="pic-label">
+            <div class="pasf-pic-label">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzjiQqDUN0QFG-Jaa7sTWk00P25GVL5U50qodMvaE&s=0"
+                alt=""
+              />
+              <a href=""><p>Mobirise</p></a>
+            </div>
+            <div class="pasf-pic-label">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS74Tw3MKRW2gP0ANONeHK5ExSpiN2qMDgPmbV0gBg&s=0"
+                alt=""
+              />
+              <a href=""><p>Google Web Designer</p></a>
+            </div>
+            <div class="pasf-pic-label">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdwr49HhZS0RDUUumrLbHxWkGU63i0LtVQpswplqc&s=0"
+                alt=""
+              />
+              <a href=""><p>Adobe Dreamwe...</p></a>
+            </div>
+            <div class="pasf-pic-label">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpMPocHnsRKiDTIISoYhhUJ9W7Q2Kv9vHIJ9V9itrRqmyoqd_JlcBabf0&s=0"
+                alt=""
+              />
+              <a href=""><p>CoffeeCup HTML Editor</p></a>
+            </div>
+            <div class="pasf-pic-label">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReb1TPyHDihSBgwd4CcYAbG1wI5uZ6IYLEr3h_MdU&s=0"
+                alt=""
+              />
+              <a href=""><p>RapidWe...</p></a>
+            </div>
+            <div class="pasf-pic-label">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqOSlh9Xrx1XYHBbefQoANWstXTvlZIjay1eGWc4eePfpZ0D_Kkg&s=0"
+                alt=""
+              />
+              <a href=""><p>openEle...</p></a>
+            </div>
+            </div>
+            <div id="see-more-2" class="see-more">
+              <a href="">
+                <i  class="fas fa-arrow-right"></i>
+                <p>See more</p>
               </a>
             </div>
           </div>
         </div>
       </div>
       <div>
-        <p><em>Feedback</em></p>
+        <p class="pasf-feedback"><a href=""><em>Feedback</em></a></p>
       </div>
       <div class="related-searches">
         <h1>Searches related to build this webpage</h1>
-        <div>
-          <ul>
-            <li>
-              <a href=""><strong>free website builder</strong></a>
-            </li>
-            <li>
-              <a href=""
-                ><strong>how to</strong> build
-                <strong>a website from scratch</strong></a
-              >
-            </li>
-            <li>
-              <a href=""><strong>best website builder</strong> </a>
-            </li>
-            <li>
-              <a href="">
-                <strong>best way to</strong> build <strong>a website</strong>
-              </a>
-            </li>
-          </ul>
-        </div>
-        <div>
-          <ul>
-            <li>
-              <a href=""
-                ><strong>creating a website for your business</strong></a
-              >
-            </li>
-            <li>
-              <a href=""><strong>create professional website</strong></a>
-            </li>
-            <li>
-              <a href=""><strong>how to design a website</strong></a>
-            </li>
-            <li>
-              <a href=""
-                ><strong>learn how to</strong> build
-                <strong>a website</strong></a
-              >
-            </li>
-          </ul>
+        <div class="related-searches2">
+          <div class="related-searches-column1">
+            <ul>
+              <li>
+                <a href=""><strong>free website builder</strong></a>
+              </li>
+              <li>
+                <a href=""
+                  ><strong>how to</strong> build
+                  <strong>a website from scratch</strong></a
+                >
+              </li>
+              <li>
+                <a href=""><strong>best website builder</strong> </a>
+              </li>
+              <li>
+                <a href="">
+                  <strong>best way to</strong> build <strong>a website</strong>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="related-searches-column2">
+            <ul>
+              <li>
+                <a href=""
+                  ><strong>creating a website for your business</strong></a
+                >
+              </li>
+              <li>
+                <a href=""><strong>create professional website</strong></a>
+              </li>
+              <li>
+                <a href=""><strong>how to design a website</strong></a>
+              </li>
+              <li>
+                <a href=""
+                  ><strong>learn how to</strong> build
+                  <strong>a website</strong></a
+                >
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
       <div class="pagination">
-        <img src="" alt="" />
-        <a href="">
-          <img src="" alt="" />
-          1
+        <h2 class="g">G</h2>
+        <div class="o-one">
+          <h2 class="o-red">o</h2>
+          <p class="one">1</p>
+        </div>
+        <a class="a-pag" href="">
+          <h2 class="o">o</h2>
+          <p>2</p>
         </a>
-        <a href="">
-          <img src="" alt="" />
-          2
+        <a class="a-pag" href="">
+          <h2 class="o">o</h2>
+          <p>3</p>
         </a>
-        <a href="">
-          <img src="" alt="" />
-          3
+        <a class="a-pag" href="">
+          <h2 class="o">o</h2>
+          <p>4</p>
         </a>
-        <a href="">
-          <img src="" alt="" />
-          4
+        <a class="a-pag" href="">
+          <h2 class="o">o</h2>
+          <p>5</p>
         </a>
-        <a href="">
-          <img src="" alt="" />
-          5
+        <a class="a-pag" href="">
+          <h2 class="o">o</h2>
+          <p>6</p>
         </a>
-        <a href="">
-          <img src="" alt="" />
-          6
+        <a class="a-pag" href="">
+          <h2 class="o">o</h2>
+          <p>7</p>
         </a>
-        <a href="">
-          <img src="" alt="" />
-          7
+        <a class="a-pag" href="">
+          <h2 class="o">o</h2>
+          <p>8</p>
         </a>
-        <a href="">
-          <img src="" alt="" />
-          8
+        <a class="a-pag" href="">
+          <h2 class="o">o</h2>
+          <p class="nine">9</p>
         </a>
-        <a href="">
-          <img src="" alt="" />
-          9
+        <a class="a-pag" href="">
+          <h2 class="o">o</h2>
+          <p class="ten">10</p>
         </a>
-        <a href="">
-          <img src="" alt="" />
-          10
+        <a class="gle" href="">
+          <h2 class="g">g</h2>
+          <h2 class="l">l</h2>
+          <h2 class="e">e</h2>
         </a>
-        <img src="" alt="" />
-        <i></i>
-        Next
+        <a class="chev a-pag" href="">
+          <i class="fas fa-chevron-right"></i>
+          <p class="next">Next</p>
+        </a>
       </div>
     </div>
     <div class="footer">
-      <div class="location">
-        <p>United Kingdom</p>
-        <div></div>
-        <div></div>
-        <p><strong>EH99 9KL, Edinburgh</strong></p>
-        <a href="">- From you places (Home) </a>
-        <a href="">- Use precise location </a>
-        <a href="">- Learn more</a>
+      <div class="footer-top-line"></div>
+      <div class="footer-row">
+        <div class="location">
+          <p class="uk">United Kingdom</p>
+          <div class="uk-post-line"></div>
+          <div class="loc-dot"></div>
+          <p><strong class="post">EH99 9KL, Edinburgh</strong></p>
+          <a href="" class="foot-links">- From you places (Home) </a>
+          <a href="" class="foot-links">- Use precise location </a>
+          <a href="" class="foot-links">- Learn more</a>
+        </div>
       </div>
+      <div class="footer-mid-line"></div>
       <div class="footer-links">
-        <a href="">Help</a>
-        <a href="">Send feedback</a>
-        <a href="">Privacy</a>
-        <a href="">Terms</a>
+        <a class="help" href="">Help</a>
+        <a class="send-feedback" href="">Send feedback</a>
+        <a class="privacy" href="">Privacy</a>
+        <a class="terms" href="">Terms</a>
       </div>
     </div>
   </body>

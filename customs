@@ -1,0 +1,56 @@
+  --sbar-color: #212121;
+  --sbar-font: 14px;
+
+  --highlightfilter-color: #1a73e8;
+  --filter-color: #5f6368;
+  --filter-font: 16px;
+
+  --botright-color: #70757a;
+  --botright-search-font: 10.6667px;
+  --botright-font: 12px;
+
+  --resnum-color: var(--botright-color);
+  --resnum-font: var(--sbar-font);
+
+  --weblink-color: #202225;
+  --extweblink-color: var(--filter-color);
+  --weblink-font: var(--sbar-font);
+
+  --hyplink-color: #1a0dab;
+  --hyplink-font: 20px;
+
+  --result-em-color: var(--filter-color);
+  --result-color: #4d5156;
+  --result-font: var(--sbar-font);
+
+  --pa-color: var(--weblink-color);
+  --pa-title-font: var(--hyplink-font);
+  --pa-content-font: var(--filter-font);
+  --pa-date-color: var(--botright-color);
+  --pa-date-font: var(--botright-font);
+  --pa-search-font: var(--filter-font);
+  --pa-more-color: var(--hyplink-color);
+  --pa-more-font: var(--sbar-font);
+  --pas-labels-font: var(--sbar-font);
+  --pas-labels-color: #000000;
+  --pas-seemore-color: var(--hyplink-color);
+  --pas-seemore-font: var(--sbar-font);
+
+  --searchrel-title-color: var(--weblink-color);
+  --searchrel-title-font-size: var(--hyplink-font);
+  --searchrel-title-font-family: "Google Sans", Arial, sans-serif;
+  --searchrel-links-color: var(--hyplink-color);
+  --searchrel-links-font: var(--sbar-font);
+
+  --pagination-font: var(--sbar-font);
+  --pagination-color-1: #000000de;
+  --pagination-color: #4285f4;
+
+  --footer-background: #f2f2f2;
+  --uk-color: #0000008a;
+  --uk-font: 15px;
+  --loc-dot-color: var(--botright-color);
+  --post-color: #3c4043;
+  --post-font: var(--sbar-font);
+  --rest-color: var(--botright-color);
+  --rest-font: var(--sbar-font);
