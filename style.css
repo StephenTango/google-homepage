@@ -113,10 +113,6 @@
   z-index: 2;
 }
 
-.search-bar:hover {
-  box-shadow: 3px 3px 3px 3px #d9dce0;
-}
-
 .search-bar-text {
   width: 533px;
   height: 18px;
